@@ -3,14 +3,14 @@ Part 2
 Amending
 Complete the following steps:
 
-Create a new repo or use an existing one
-Create a new file db.secret with a secret message
-“Accidentally” commit your secret
-Take a screenshot of `git log -p`
-Fix your mistake: Add db.secret into your .gitignore, remove the secret file from the index (see hint below) and `git commit --amend` (if you want you can add --no-edit to skip the editor window for the commit message)
-Take another screenshot of `git log -p` and post both screenshots to slack
+[x] Create a new repo or use an existing one
+[x] Create a new file db.secret with a secret message
+[x] “Accidentally” commit your secret
+[x] Take a screenshot of `git log -p`
+[x] Fix your mistake: Add db.secret into your .gitignore, remove the secret file from the index (see hint below) and `git commit --amend` (if you want you can add --no-edit to skip the editor window for the commit message)
+[x] Take another screenshot of `git log -p` and post both screenshots to slack
 
-Hint: To remove something only from the index use `git rm --cached db.secret` this leaves the file in your folder.
+[x] Hint: To remove something only from the index use `git rm --cached db.secret` this leaves the file in your folder.
 
 Cherry Picking + Amending
 
