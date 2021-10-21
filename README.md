@@ -14,7 +14,7 @@ Complete the following steps:
 
 Cherry Picking + Amending
 
-Add two more commits to your repo, so you have at least 3 commits
+[x] Add two more commits to your repo, so you have at least 3 commits
 Your goal is to change the message of the commit that is 3 steps back (while leaving the two children alone)
 
 Steps: 
